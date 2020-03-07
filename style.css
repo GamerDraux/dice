@@ -1,0 +1,19 @@
+html {
+    background-color: rgba(23, 194, 194, 0.733)
+}
+
+.sectionheader{
+    background-color: seagreen;
+    border-style: groove;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+header {
+    font-size: 100px;
+}
+
+#nameline {
+    font-weight: 1000;
+    font-style: italic;
+}
