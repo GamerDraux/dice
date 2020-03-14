@@ -7,9 +7,16 @@
     <body>
         <header class="sectionheader">Dice Roller</header>
         <p id="nameline" class="sectionheader" >A webpage by Andy Koch</p>
-        <button class ="buttons" id="d6button">Roll D6</button>
+        <div id="dicerow">
+        <ul>
+            <li><button class= "buttons id= "d4button>Roll D4</button></li> 
+            <li><button class ="buttons" id="d6button">Roll D6</button></li>
+             <li><button class= "buttons" id="d8button">Roll D8</button></li>
+             <li><button class= "buttons" id="d10button">Roll D10</button></li>
+            <li><button class= "buttons" id="D12button">Roll D12</button></li>
+            <li><button class= "buttons" id="D20button">Roll D20</button></li>
+        </ul></div>
         <div class="results" id="d6result"> </div>
-        <button class= "buttons" id="d8button">Roll D8</button>
         <div class="results" id="d8result"> </div>
         <script src="script.js"></script>
     </body>

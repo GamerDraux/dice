@@ -9,8 +9,27 @@ html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 
+.buttons{
+    display: inline;
+}
+
+#dicerow ul li{
+    display: inline;
+    display:float;
+}
+
 header {
     font-size: 100px;
+}
+
+#d6button {
+    background-image: url("images/dice-clipart-six-6.png");
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
 }
 
 #nameline {
